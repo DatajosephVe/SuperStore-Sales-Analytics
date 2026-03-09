@@ -110,7 +110,7 @@ Dataset CSV (Kaggle)
 📁 Proyecto1-SuperStore/
 │
 ├── 📊 Dashboard_Superstore.xlsx       ← Archivo principal con dashboards
-├── 📄 dataset_Superstore.csv                  ← Dataset fuente (Kaggle)
+├── 📄 dataset_Superstore.csv          ← Dataset fuente (Kaggle)
 ├── 📝 README.md                       ← Este archivo
 ├── 📋 SuperStore_Documentacion.pdf  ← Documentación técnica completa
 │
@@ -154,11 +154,11 @@ Para cada una:
 2. En **Pasos aplicados**, haz clic en **Origen**
 3. En la barra de fórmulas verás la ruta original:
 ```
-"E:\Portafolio\Proyecto 1-SuperStore\superstore.csv"
+"E:\Portafolio\Proyecto 1-SuperStore\dataset_Superstore.csv"
 ```
 4. Cámbiala por tu ruta local. Ejemplo:
 ```
-"C:\TuCarpeta\SuperStore\superstore.csv"
+"C:\TuCarpeta\SuperStore\dataset_Superstore.csv"
 ```
 
 ### Paso 4 — Aplica y cierra
