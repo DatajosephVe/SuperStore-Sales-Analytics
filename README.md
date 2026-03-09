@@ -87,7 +87,7 @@ Dataset CSV (Kaggle)
          │
          ▼
 ┌─────────────────────┐
-│  POWER PIVOT        │  ← Modelo estrella + 30 medidas DAX
+│  POWER PIVOT        │  ← Modelo estrella + 31 medidas DAX
 │  Esquema Estrella   │
 │  Relaciones 1:N     │
 └────────┬────────────┘
@@ -99,6 +99,8 @@ Dataset CSV (Kaggle)
 │  Análisis Anomalías │
 └─────────────────────┘
 ```
+
+> 💡 **Nota sobre las medidas DAX:** El modelo incluye **31 medidas organizadas como capa semántica reutilizable**. No todas están vinculadas a un visual en los dashboards actuales — esto es intencional: permite extender el análisis y agregar nuevas visualizaciones sin reescribir lógica de negocio. Las medidas base (totales, promedios, rankings y Z-Score) están disponibles para cualquier analista que quiera profundizar el análisis directamente desde el modelo.
 
 ---
 
@@ -130,7 +132,7 @@ Descarga **ambos archivos** y colócalos en la misma carpeta:
 ```
 📁 C:\TuCarpeta\SuperStore\
    ├── Dashboard_Superstore.xlsx
-   └── superstore.csv
+   └── dataset_Superstore.csv
 ```
 
 ### Paso 2 — Abre el Editor de Power Query
